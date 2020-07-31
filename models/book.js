@@ -7,7 +7,7 @@ const bSchema = new Schema({
   synophis: String,
   image: { type: String, trim: true },
   link: { type: String, trim: true },
-//   data: { type: Data, default: Data.now },
+  data: { type: Date, default: Date.now }
 });
 const Book = mongoose.model("Book", bSchema);
 
