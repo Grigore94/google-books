@@ -1,0 +1,7 @@
+.navbar {
+  background-color: rgb(80, 51, 13);
+}
+.navbar > p {
+font-size: 24px;
+text-align: center;
+}
